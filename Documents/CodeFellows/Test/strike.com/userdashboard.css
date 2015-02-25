@@ -1,0 +1,73 @@
+body {
+  font-family: Courier New;
+  background-image: url("file:///Users/awalters313/Documents/CodeFellows/Test/strike.com/images/Early-Morning-on-Main-Street-dashboard.jpg");
+  background-size: 1280px 720px;
+  color: white;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  border-bottom-color: green;
+  border-bottom-width: 2px;
+}
+
+h2 {
+  font-size: 18px;
+  padding-left: 25px;
+}
+
+h3 {
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-left: 10px; 
+}
+
+p {
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+figcaption {
+  font-size: 14px;
+}
+
+button {
+  font-size: 18px;
+  color: white;
+  background-color: green;
+  height: 35px;
+  border: solid white 2px;
+  margin-left: 500px;
+}
+
+img {
+  height: 300px;
+  width: 500px;
+}
+
+section {
+  height: 660px;
+}
+
+div {
+  display: inline-block;
+}
+
+.tickerChart {
+  position: relative;
+}
+
+.overview {
+  position: relative;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tools {
+  display: inline;
+}

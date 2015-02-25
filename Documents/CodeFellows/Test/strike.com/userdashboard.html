@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> User Dashboard </title>
+    <link type="text/css" rel="stylesheet" href="userdashboard.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1> Investor Dashboard </h1>
+    </header>
+    <main>
+      <section>
+        <hr />
+        <h2> Your Current Investments </h2>
+        <div class ="tickerChart">
+          <h3> Apple, Inc. (AAPL) </h3>
+          <figure>
+            <img src="http://thumbs.dreamstime.com/z/up-bull-market-rise-bullish-stock-chart-graph-18102286.jpg" alt="(ticker symbol)"/>
+            <form action="#">
+              <p> Select TimeFrame: 
+              <input type="radio" name="timeframe" value="today" checked="checked" /> Today
+              <input type="radio" name="timeframe" value="1 mo" checked="checked" /> 1 mo
+              <input type="radio" name="timeframe" value="3 mos" checked="checked" /> 3 mos
+              <input type="radio" name="timeframe" value="1 yr" checked="checked" /> 1 yr
+              </p>
+            </form>
+            <form action="#">
+              <p class="tools"> Tools: </p>
+              <select name="toolOptions">
+                <option value="bollinger bands"> Bollinger Bands </option>
+                <option value="relative strength"> Relative Strength </option>
+                <option value="point and figure"> Point and Figure </option>
+              </select>
+            </form>
+          </figure>
+        </div>
+        <div class="overview">
+          <h3 id="currentStatus"> </h3>
+          <!--JavaScript(?) would pull the data below-->
+          <p> Total Gain/Loss: </p>
+          <p> Current Price: </p>
+          <p> Your Purchase Price: </p>
+        </div>
+        <br/>
+        <button> Dive into the Inputs </button> <!--this button would expand the page-->
+      </section>
+      <section>
+        <hr />
+        <h2> Your Watchlist </h2>
+        <div class="tickerChart">
+          <h3> "Ticker" </h3>
+          <figure>
+            <img src="http://thumbs.dreamstime.com/z/up-bull-market-rise-bullish-stock-chart-graph-18102286.jpg" alt="(ticker symbol)"/>
+             <form action="#">
+              <p> Select TimeFrame: 
+              <input type="radio" name="timeframe" value="today" checked="checked" /> Today
+              <input type="radio" name="timeframe" value="1 mo" checked="checked" /> 1 mo
+              <input type="radio" name="timeframe" value="3 mos" checked="checked" /> 3 mos
+              <input type="radio" name="timeframe" value="1 yr" checked="checked" /> 1 yr
+              </p>
+            </form>
+            <form action="#">
+              <p class="tools"> Tools: </p>
+              <select name="toolOptions">
+                <option value="bollinger bands"> Bollinger Bands </option>
+                <option value="relative strength"> Relative Strength </option>
+                <option value="point and figure"> Point and Figure </option>
+              </select>
+            </form>
+          </figure>
+        </div>
+        <div class="overview">
+          <h3> Current Status </h3>
+          <!--JavaScript(?) would pull the data below-->
+          <p> Current Price: </p>
+          <p> w/w change: </p>
+          <p> Market Cap: </p>
+          <p> Book Value: </p> 
+          <p> Recommendation: </p>
+        </div>
+        <br />
+        <button> Dive into the Inputs </button> <!--this button would expand the page-->
+      </section>
+      <section>
+        <hr />
+        <h2> Recommendations </h2>
+        <div class="tickerChart">
+          <h3> "Ticker" </h3>
+          <figure>
+            <img src="http://thumbs.dreamstime.com/z/up-bull-market-rise-bullish-stock-chart-graph-18102286.jpg" alt="(ticker symbol)"/>
+            <form action="#">
+              <p> Select TimeFrame: 
+              <input type="radio" name="timeframe" value="today" checked="checked" /> Today
+              <input type="radio" name="timeframe" value="1 mo" checked="checked" /> 1 mo
+              <input type="radio" name="timeframe" value="3 mos" checked="checked" /> 3 mos
+              <input type="radio" name="timeframe" value="1 yr" checked="checked" /> 1 yr
+              </p>
+            </form>
+            <form action="#">
+              <p class="tools"> Tools: </p>
+              <select name="toolOptions">
+                <option value="bollinger bands"> Bollinger Bands </option>
+                <option value="relative strength"> Relative Strength </option>
+                <option value="point and figure"> Point and Figure </option>
+              </select>
+            </form>
+          </figure>
+        </div>
+        <div class="overview">
+          <h3> Current Status </h3>
+          <!--JavaScript(?) would pull the data below-->
+          <p> Current Price: </p>
+          <p> w/w change: </p>
+          <p> Market Cap: </p>
+          <p> Book Value: </p> 
+          <p> Recommendation: </p>
+        </div>
+        <br />
+        <button> Dive into the Inputs </button> <!--this button would expand the page-->
+      </section>
+      <section>
+        <hr />
+        <form action="#">
+          <h4> Search for stocks to add to your watchlist </h4>
+          <input type="search" name="search" placeholder="Enter Ticker Symbol" />
+          <input type="submit" value="Search" />
+        </form>
+      </section>
+    </main>
+    <script src="file:///Users/awalters313/Documents/CodeFellows/Test/strike.com/companyValue3.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Build a House Of Cards </title>
+    <link type="text/css" rel="stylesheet" href="HouseOfCards.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+  </head>
+  <body>
+    <!--This is a puzzle. Shuffle will scramble the puzzle. And jQuery's draggable effect will allow the user to rearrange the "cards", or puzzle pieces.-->
+    <header>
+      <div class="siteName">
+        <h1> House of Cards </h1>
+      </div>
+    </header>
+    <main>
+      <div class="blackBox">
+        <h2> Whip this image into shape! </h2>
+        <h3> Arrange the puzzle pieces to match the image below </h3>
+        <button class="scramble"> Scramble Pieces </button>
+        <button class="solve"> Solve Puzzle </button>
+      </div>
+      <div class="houseFrame">
+        <ul id="deck"></ul>
+      </div>
+      <div class="finalImage">
+        <img src="file:///Users/awalters313/Documents/CodeFellows/Cards/images/puzzleFinalImage.jpg" alt="Final Image"/>
+      </div>
+    </main>
+    <footer>
+      <div class="foot">
+        <h1> Thanks for playing! </h1>
+        <p> &copy; by Andrew Walters </p>
+      </div>
+    </footer>
+    <script src="deck-o-cards.js"></script>
+  </body>
+</html>
